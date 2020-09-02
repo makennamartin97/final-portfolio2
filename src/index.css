@@ -22,7 +22,7 @@ body {
 .main {
   height: 49rem;
   padding-top: 0;
-  background-image: url("/m8.png");
+  background-image: url("./components/projpics/m8.png");
   background-position: center center;
 
 }

@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios';
-import ReactDOM from 'react-dom';
 import GitHubCalendar from 'react-github-calendar';
 import wp from './projpics/login.png';
 import wp2 from './projpics/main.png';
@@ -18,6 +16,23 @@ import p3 from './projpics/pet3.png';
 import p4 from './projpics/pet4.png';
 import q from './projpics/q.png';
 import q2 from './projpics/q2.png';
+import a1 from './projpics/py.png';
+import a2 from './projpics/js.png';
+import a3 from'./projpics/csharpicon.png';
+import a4 from './projpics/csharp.png';
+import a5 from './projpics/nodejs.png';
+import a6 from './projpics/django2.png';
+import a7 from './projpics/flask.png';
+import a8 from './projpics/expressjs.png';
+import a9 from './projpics/logo192.png';
+import a10 from './projpics/mongodb.png';
+import a11 from './projpics/mysql.png';
+import a12 from './projpics/html2.png';
+import a13 from './projpics/css3.png';
+import a14 from './projpics/bootstrap.png';
+import a15 from './projpics/dojo-icon.png';
+import a16 from './projpics/git3.png';
+import a17 from './projpics/m8.png';
 
 
 
@@ -27,8 +42,8 @@ export default () => {
         grade4: '#9be9a8',
         grade3: '#9be9a8',
         grade2: '#40c463',
-        grade1: '#16161d',
-        grade0: '#00FF7F'
+        grade1: '#40c463',
+        grade0: '#16161d'
       };
 
     return(
@@ -38,20 +53,20 @@ export default () => {
                 </div>
             </div>
             <div class="container supporting ">
-                <img src="/py.png" alt="pic" />
-                <img src="/js.png" alt="pic" />
-                <img src="/csharpicon.png" alt="pic" />
-                <img src="/csharp.png" alt="pic" />
-                <img src="/nodejs.png" alt="pic" />
-                <img src="/django2.png" alt="pic" />
-                <img src="/flask.png" alt="pic" />
-                <img src="/expressjs.png" alt="pic" />
-                <img src="/logo192.png" alt="pic" />
-                <img src="/mongodb.png" alt="pic" />
-                <img src="/mysql.png" alt="pic" />
-                <img src="/html2.png" alt="pic" />
-                <img src="/css3.png" alt="pic" />
-                <img src="/bootstrap.png" alt="pic" />
+                <img src={a1} alt="pic" />
+                <img src={a2} alt="pic" />
+                <img src={a3} alt="pic" />
+                <img src={a4} alt="pic" />
+                <img src={a5} alt="pic" />
+                <img src={a6} alt="pic" />
+                <img src={a7} alt="pic" />
+                <img src={a8} alt="pic" />
+                <img src={a9} alt="pic" />
+                <img src={a10} alt="pic" />
+                <img src={a11} alt="pic" />
+                <img src={a12} alt="pic" />
+                <img src={a13} alt="pic" />
+                <img src={a14} alt="pic" />
             </div>
             <div className="rating">
                 <div className="container">
@@ -67,7 +82,7 @@ export default () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 >Coding Dojo Graduate</h2>
-                        <img src="/dojo-icon.png" />
+                        <img src={a15} />
                         <div className="mt-3">
                             <h1>Finished with a triple black belt (97% or higher on all 3 full-stack exams)</h1>
                             <h1>Accumulated 1200+ hours of intensive programming coursework </h1>
@@ -117,7 +132,7 @@ export default () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 >Github Contributions</h2>
-                        <img src="/git3.png" />
+                        <img src={a16} />
                         <div className="mt-3" id="projects">
                             <a className="text-success m-3"  href="https://github.com/makennamartin97">https://github.com/makennamartin97</a>
                             <GitHubCalendar username="makennamartin97" fontSize={12} blockMargin={10} blockSize={12} theme={exampleTheme}/>
